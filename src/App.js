@@ -159,6 +159,9 @@ export default function App() {
       Alert.alert("Could not cancel request", e.message);
     }
   };
+  ///
+  ///
+  ///
   const collectedHandler = async (id) => {
     try {
       await markCollected(id);
